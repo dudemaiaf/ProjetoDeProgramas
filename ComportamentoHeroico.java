@@ -1,6 +1,6 @@
 package comportamentos;
 
-public interface ComportamentoHeroico {
+interface ComportamentoHeroico {
 	//atacar
 	//defender
 	//saltar
