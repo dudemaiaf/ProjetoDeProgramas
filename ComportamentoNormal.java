@@ -1,6 +1,6 @@
 package comportamentos;
 
-public interface ComportamentoNormal {
+interface ComportamentoNormal {
 	public void setAndar (boolean andar);
 	public boolean getAndar ();
 
