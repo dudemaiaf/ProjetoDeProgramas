@@ -2,7 +2,11 @@ package personagem;
 import comportamentos.ComportamentoNormal;
 
 public abstract class Personagem implements ComportamentoNormal{
-	protected String nome;
+	private String nome;
+	
+	public Personagem (String nome){
+		this.nome = nome;
+	}
 
 	public String getNome() {
 		return nome;
