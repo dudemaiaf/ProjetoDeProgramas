@@ -1,6 +1,6 @@
 package comportamentos;
 
-public interface ComportamentoMagico {
+interface ComportamentoMagico {
 	//invisibilidade
 	//ultrarapidez
 	public void setInvisibilidade (boolean invisibilidade);
